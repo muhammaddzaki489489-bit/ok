@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Genre – ZooNime</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Zoo<span>Nime</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" id="nl-home">Home</a>
+        <a href="latest.html" class="nav-link" id="nl-latest">Terbaru</a>
+        <a href="popular.html" class="nav-link" id="nl-popular">Populer</a>
+        <a href="genre.html" class="nav-link" id="nl-genre">Genre</a>
+        <a href="search.html" class="nav-link" id="nl-search">Search</a>
+      </div>
+      <div class="nav-right">
+        <a href="search.html" class="search-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </a>
+        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+<main>
+  <section class="section">
+    <h1 class="page-title">🎭 Genre Donghua</h1>
+    <div class="genre-list" id="genreList"></div>
+    <div class="cards-grid" id="grid" style="display:none"></div>
+  </section>
+</main>
+<footer class="footer"><p>© 2025 <span class="accent">ZooNime</span></p></footer>
+<script src="js/api.js"></script>
+<script src="js/genre.js"></script>
+</body>
+</html>
